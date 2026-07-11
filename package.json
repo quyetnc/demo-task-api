@@ -1,0 +1,24 @@
+{
+  "name": "demo-task-api",
+  "version": "1.0.0",
+  "description": "Demo task API for observability study",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node server.js"
+  },
+  "keywords": [
+    "observability",
+    "metrics",
+    "prometheus",
+    "api"
+  ],
+  "author": "quyet",
+  "license": "MIT",
+  "dependencies": {
+    "express": "^4.18.2",
+    "sqlite3": "^5.1.6",
+    "prom-client": "^14.2.0",
+    "uuid": "^9.0.0"
+  }
+}
