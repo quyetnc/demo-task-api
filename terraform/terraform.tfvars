@@ -1,0 +1,6 @@
+aws_region = "ap-southeast-2"
+instance_type = "t3.micro"
+key_name = "quyet-climax-kp"
+owner = "quyet"
+day = "31"
+git_repo = "https://github.com/quyetnc/proops2026.git"
